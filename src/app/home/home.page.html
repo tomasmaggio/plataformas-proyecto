@@ -1,0 +1,34 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Inicio
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Bienvenido a iBiblioteca</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      iBiblioteca es una aplicación desarrollada con Ionic que permite gestionar una biblioteca de un centro educativo.
+      Para acceder a la biblioteca pulsa el seguiente botón:
+    </ion-card-content>
+  
+    <ion-button fill="clear" [routerLink]="['/ibiblioteca']">Biblioteca</ion-button>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Informacion sobre el autor</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Aplicación desarrollada por Gabriel Bastías, estudiante del CET N30, Cipolletti, Río Negro, Argentina. 
+    </ion-card-content>
+  
+    <ion-button fill="clear" [routerLink]="['/autor']">Consultar Información</ion-button>
+  </ion-card>
+</ion-content>
